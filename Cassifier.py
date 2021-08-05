@@ -12,13 +12,13 @@ from sklearn.neighbors import KNeighborsClassifier
 #Importing data by read only
 '''
 #Importing the data
-for dirname, _, filenames in os.walk('F:\\Work\Projects\\Image classification\\dataset\\training_set'):
+for dirname, _, filenames in os.walk('The data directory'):
     for filename in filenames:
         os.path.join(dirname, filename)
 '''
 
 #The directory of the data
-Dir = 'F:\\Work\Projects\\Image classification\\dataset\\training_set'
+Dir = 'The data directory'
 Classes = ['cats', 'dogs']
 
 #The image size
