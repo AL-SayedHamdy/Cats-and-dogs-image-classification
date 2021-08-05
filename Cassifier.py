@@ -9,14 +9,6 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix 
 from sklearn.neighbors import KNeighborsClassifier
 
-#Importing data by read only
-'''
-#Importing the data
-for dirname, _, filenames in os.walk('The data directory'):
-    for filename in filenames:
-        os.path.join(dirname, filename)
-'''
-
 #The directory of the data
 Dir = 'The data directory'
 Classes = ['cats', 'dogs']
